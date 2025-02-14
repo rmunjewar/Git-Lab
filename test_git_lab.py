@@ -47,5 +47,10 @@ class TestUtils(unittest.TestCase):
         self.assertTrue(is_prime(31))
         self.assertFalse(is_prime(100))
 
+    def test_add_numbers(self):
+        self.assertEqual(add_numbers(2,3),5)
+        self.assertEqual(add_numbers(2,3),5)
+
+
 if __name__ == '__main__':
     unittest.main()
